@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,22 @@
 		0825FBF52679017500E8B4E4 /* Lesson_14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0825FBF32679017500E8B4E4 /* Lesson_14.xcdatamodeld */; };
 		0825FBF72679017700E8B4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0825FBF62679017700E8B4E4 /* Assets.xcassets */; };
 		0825FBFA2679017700E8B4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0825FBF82679017700E8B4E4 /* LaunchScreen.storyboard */; };
+		0825FC06267B7BCE00E8B4E4 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC05267B7BCE00E8B4E4 /* UserDefaults.swift */; };
+		0825FC0A267B971E00E8B4E4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0825FC09267B971E00E8B4E4 /* Realm */; };
+		0825FC0C267B971E00E8B4E4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0825FC0B267B971E00E8B4E4 /* RealmSwift */; };
+		0825FC0E267B9A1B00E8B4E4 /* TodoListCoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC0D267B9A1B00E8B4E4 /* TodoListCoreDataTableViewController.swift */; };
+		0825FC10267CB3FC00E8B4E4 /* TodoListRealmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC0F267CB3FC00E8B4E4 /* TodoListRealmTableViewController.swift */; };
+		0825FC41267CF9C200E8B4E4 /* NewTwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC35267CF9C100E8B4E4 /* NewTwoTableViewCell.swift */; };
+		0825FC42267CF9C200E8B4E4 /* DataSourceIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC37267CF9C200E8B4E4 /* DataSourceIcon.swift */; };
+		0825FC43267CF9C200E8B4E4 /* DataSoursMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC38267CF9C200E8B4E4 /* DataSoursMonth.swift */; };
+		0825FC44267CF9C200E8B4E4 /* DataSoursDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC39267CF9C200E8B4E4 /* DataSoursDay.swift */; };
+		0825FC45267CF9C200E8B4E4 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC3A267CF9C200E8B4E4 /* DataSource.swift */; };
+		0825FC46267CF9C200E8B4E4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC3B267CF9C200E8B4E4 /* TableViewCell.swift */; };
+		0825FC47267CF9C200E8B4E4 /* CurrentTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC3C267CF9C200E8B4E4 /* CurrentTemperature.swift */; };
+		0825FC48267CF9C200E8B4E4 /* CurrentTemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC3D267CF9C200E8B4E4 /* CurrentTemperatureCell.swift */; };
+		0825FC49267CF9C200E8B4E4 /* CurrentTemperatureLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC3E267CF9C200E8B4E4 /* CurrentTemperatureLoader.swift */; };
+		0825FC4B267CF9C200E8B4E4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825FC40267CF9C200E8B4E4 /* ViewController2.swift */; };
+		0825FC4E267DBDAB00E8B4E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0825FC4D267DBDAB00E8B4E4 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,19 @@
 		0825FBF62679017700E8B4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0825FBF92679017700E8B4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0825FBFB2679017700E8B4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0825FC05267B7BCE00E8B4E4 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		0825FC0D267B9A1B00E8B4E4 /* TodoListCoreDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListCoreDataTableViewController.swift; sourceTree = "<group>"; };
+		0825FC0F267CB3FC00E8B4E4 /* TodoListRealmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListRealmTableViewController.swift; sourceTree = "<group>"; };
+		0825FC35267CF9C100E8B4E4 /* NewTwoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTwoTableViewCell.swift; sourceTree = "<group>"; };
+		0825FC37267CF9C200E8B4E4 /* DataSourceIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceIcon.swift; sourceTree = "<group>"; };
+		0825FC38267CF9C200E8B4E4 /* DataSoursMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSoursMonth.swift; sourceTree = "<group>"; };
+		0825FC39267CF9C200E8B4E4 /* DataSoursDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSoursDay.swift; sourceTree = "<group>"; };
+		0825FC3A267CF9C200E8B4E4 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		0825FC3B267CF9C200E8B4E4 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0825FC3C267CF9C200E8B4E4 /* CurrentTemperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTemperature.swift; sourceTree = "<group>"; };
+		0825FC3D267CF9C200E8B4E4 /* CurrentTemperatureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTemperatureCell.swift; sourceTree = "<group>"; };
+		0825FC3E267CF9C200E8B4E4 /* CurrentTemperatureLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTemperatureLoader.swift; sourceTree = "<group>"; };
+		0825FC40267CF9C200E8B4E4 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0825FC4E267DBDAB00E8B4E4 /* Alamofire in Frameworks */,
+				0825FC0C267B971E00E8B4E4 /* RealmSwift in Frameworks */,
+				0825FC0A267B971E00E8B4E4 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +92,9 @@
 			children = (
 				0825FBEA2679017500E8B4E4 /* AppDelegate.swift */,
 				0825FBEC2679017500E8B4E4 /* SceneDelegate.swift */,
-				0825FBEE2679017500E8B4E4 /* ViewController.swift */,
+				0825FC07267B8CE400E8B4E4 /* UserDefault */,
+				0825FC11267CF42E00E8B4E4 /* ToDo List */,
+				0825FC12267CF64000E8B4E4 /* Weather */,
 				0825FBF02679017500E8B4E4 /* Main.storyboard */,
 				0825FBF62679017700E8B4E4 /* Assets.xcassets */,
 				0825FBF82679017700E8B4E4 /* LaunchScreen.storyboard */,
@@ -68,6 +102,49 @@
 				0825FBF32679017500E8B4E4 /* Lesson_14.xcdatamodeld */,
 			);
 			path = "Lesson 14";
+			sourceTree = "<group>";
+		};
+		0825FC07267B8CE400E8B4E4 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				0825FC05267B7BCE00E8B4E4 /* UserDefaults.swift */,
+				0825FBEE2679017500E8B4E4 /* ViewController.swift */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		0825FC11267CF42E00E8B4E4 /* ToDo List */ = {
+			isa = PBXGroup;
+			children = (
+				0825FC0D267B9A1B00E8B4E4 /* TodoListCoreDataTableViewController.swift */,
+				0825FC0F267CB3FC00E8B4E4 /* TodoListRealmTableViewController.swift */,
+			);
+			path = "ToDo List";
+			sourceTree = "<group>";
+		};
+		0825FC12267CF64000E8B4E4 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				0825FC3C267CF9C200E8B4E4 /* CurrentTemperature.swift */,
+				0825FC3D267CF9C200E8B4E4 /* CurrentTemperatureCell.swift */,
+				0825FC3E267CF9C200E8B4E4 /* CurrentTemperatureLoader.swift */,
+				0825FC36267CF9C200E8B4E4 /* DataSorce */,
+				0825FC35267CF9C100E8B4E4 /* NewTwoTableViewCell.swift */,
+				0825FC3B267CF9C200E8B4E4 /* TableViewCell.swift */,
+				0825FC40267CF9C200E8B4E4 /* ViewController2.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		0825FC36267CF9C200E8B4E4 /* DataSorce */ = {
+			isa = PBXGroup;
+			children = (
+				0825FC37267CF9C200E8B4E4 /* DataSourceIcon.swift */,
+				0825FC38267CF9C200E8B4E4 /* DataSoursMonth.swift */,
+				0825FC39267CF9C200E8B4E4 /* DataSoursDay.swift */,
+				0825FC3A267CF9C200E8B4E4 /* DataSource.swift */,
+			);
+			path = DataSorce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +163,11 @@
 			dependencies = (
 			);
 			name = "Lesson 14";
+			packageProductDependencies = (
+				0825FC09267B971E00E8B4E4 /* Realm */,
+				0825FC0B267B971E00E8B4E4 /* RealmSwift */,
+				0825FC4D267DBDAB00E8B4E4 /* Alamofire */,
+			);
 			productName = "Lesson 14";
 			productReference = 0825FBE72679017500E8B4E4 /* Lesson 14.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +195,10 @@
 				Base,
 			);
 			mainGroup = 0825FBDE2679017500E8B4E4;
+			packageReferences = (
+				0825FC08267B971E00E8B4E4 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				0825FC4C267DBDAB00E8B4E4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0825FBE82679017500E8B4E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +226,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0825FC46267CF9C200E8B4E4 /* TableViewCell.swift in Sources */,
+				0825FC49267CF9C200E8B4E4 /* CurrentTemperatureLoader.swift in Sources */,
 				0825FBEF2679017500E8B4E4 /* ViewController.swift in Sources */,
+				0825FC42267CF9C200E8B4E4 /* DataSourceIcon.swift in Sources */,
+				0825FC06267B7BCE00E8B4E4 /* UserDefaults.swift in Sources */,
+				0825FC47267CF9C200E8B4E4 /* CurrentTemperature.swift in Sources */,
+				0825FC10267CB3FC00E8B4E4 /* TodoListRealmTableViewController.swift in Sources */,
+				0825FC41267CF9C200E8B4E4 /* NewTwoTableViewCell.swift in Sources */,
+				0825FC44267CF9C200E8B4E4 /* DataSoursDay.swift in Sources */,
+				0825FC45267CF9C200E8B4E4 /* DataSource.swift in Sources */,
+				0825FC43267CF9C200E8B4E4 /* DataSoursMonth.swift in Sources */,
+				0825FC4B267CF9C200E8B4E4 /* ViewController2.swift in Sources */,
+				0825FC48267CF9C200E8B4E4 /* CurrentTemperatureCell.swift in Sources */,
+				0825FC0E267B9A1B00E8B4E4 /* TodoListCoreDataTableViewController.swift in Sources */,
 				0825FBEB2679017500E8B4E4 /* AppDelegate.swift in Sources */,
 				0825FBF52679017500E8B4E4 /* Lesson_14.xcdatamodeld in Sources */,
 				0825FBED2679017500E8B4E4 /* SceneDelegate.swift in Sources */,
@@ -293,6 +392,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D866AY788B;
 				INFOPLIST_FILE = "Lesson 14/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D866AY788B;
 				INFOPLIST_FILE = "Lesson 14/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,6 +446,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0825FC08267B971E00E8B4E4 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.8.0;
+			};
+		};
+		0825FC4C267DBDAB00E8B4E4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0825FC09267B971E00E8B4E4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0825FC08267B971E00E8B4E4 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		0825FC0B267B971E00E8B4E4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0825FC08267B971E00E8B4E4 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		0825FC4D267DBDAB00E8B4E4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0825FC4C267DBDAB00E8B4E4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0825FBF32679017500E8B4E4 /* Lesson_14.xcdatamodeld */ = {
