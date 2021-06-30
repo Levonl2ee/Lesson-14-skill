@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kJ4-1U-P4J">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6lI-zL-FeD">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--UserDefault-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson_14" customModuleProvider="target" sceneMemberID="viewController">
@@ -54,6 +54,10 @@
                             <constraint firstItem="aOV-13-bMr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="reG-jb-kvu"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="UserDefault" id="AAd-kJ-Hud">
+                        <imageReference key="image" image="pencil.tip.crop.circle.badge.plus" catalog="system" renderingMode="original"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="nfx-h5-UxG"/>
                     <connections>
                         <outlet property="nameTextField" destination="cqm-4P-jYM" id="gOZ-cy-Z02"/>
                         <outlet property="surNameTextField" destination="aOV-13-bMr" id="mpR-29-PAf"/>
@@ -63,10 +67,13 @@
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="76.630434782608702"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--ToDo List CoreData-->
         <scene sceneID="7ie-Aj-ZhN">
             <objects>
                 <navigationController id="3mS-yt-kmF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ToDo List CoreData" id="av2-Vq-MV3">
+                        <imageReference key="image" image="text.badge.plus" catalog="system" renderingMode="original"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Baa-fg-mbN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -114,10 +121,33 @@
             </objects>
             <point key="canvasLocation" x="864" y="746"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="lmv-mU-Mt3">
+            <objects>
+                <tabBarController id="6lI-zL-FeD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JFy-RD-W9F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kJ4-1U-P4J" kind="relationship" relationship="viewControllers" id="uar-Oo-dxw"/>
+                        <segue destination="3mS-yt-kmF" kind="relationship" relationship="viewControllers" id="j59-YM-t76"/>
+                        <segue destination="h8U-0R-cbT" kind="relationship" relationship="viewControllers" id="KGs-Lk-Bp1"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="7ZI-oU-fFz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tRm-zJ-qoi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-894" y="1110"/>
+        </scene>
+        <!--ToDO List Realm-->
         <scene sceneID="aRU-wz-lQu">
             <objects>
                 <navigationController id="h8U-0R-cbT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ToDO List Realm" id="7ff-nb-kCy">
+                        <imageReference key="image" image="text.badge.plus" catalog="system" renderingMode="original"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kCo-bO-LBm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -165,7 +195,7 @@
             </objects>
             <point key="canvasLocation" x="864" y="1420"/>
         </scene>
-        <!--View Controller2-->
+        <!--Погода-->
         <scene sceneID="eMn-MI-nTl">
             <objects>
                 <viewController id="kJ4-1U-P4J" customClass="ViewController2" customModule="Lesson_14" sceneMemberID="viewController">
@@ -177,7 +207,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" separatorInsetReference="fromAutomaticInsets" rowHeight="55" sectionHeaderHeight="110" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="MG2-lt-nrF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" systemColor="systemGray6Color"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -241,7 +271,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewCell" id="7Hp-UV-ERz" customClass="CurrentTemperatureCell" customModule="lesson_12" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewCell" id="7Hp-UV-ERz" customClass="CurrentTemperatureCell" customModule="Lesson_14" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="244" width="414" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7Hp-UV-ERz" id="Iph-g3-MIA">
@@ -307,7 +337,7 @@
                                             <outlet property="weekDayAndHourLabel" destination="Nc8-2p-Pex" id="G0S-g8-qGG"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewCellTwo" id="De4-Hj-h6A" customClass="NewTwoTableViewCell" customModule="lesson_12" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewCellTwo" id="De4-Hj-h6A" customClass="NewTwoTableViewCell" customModule="Lesson_14" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="299" width="414" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="De4-Hj-h6A" id="kCe-ku-rhN">
@@ -345,7 +375,7 @@
                                             <outlet property="resultNewLabel" destination="mqf-jj-hAj" id="VFO-U9-gUj"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="header" id="GKb-Iw-rhf" customClass="TableViewCell" customModule="lesson_12" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="header" id="GKb-Iw-rhf" customClass="TableViewCell" customModule="Lesson_14" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="354" width="414" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GKb-Iw-rhf" id="JIs-rW-80f">
@@ -394,6 +424,9 @@
                             <constraint firstItem="HcS-XB-T0c" firstAttribute="leading" secondItem="7KI-4g-68o" secondAttribute="leading" id="yGi-rS-p2t"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Погода" id="UnD-wF-cIc">
+                        <imageReference key="image" image="sun.max.fill" catalog="system" renderingMode="original"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="TableView" destination="MG2-lt-nrF" id="bwZ-gH-M13"/>
                         <outlet property="cloudyLabel" destination="yc0-0Z-iYL" id="MqO-3T-79F"/>
@@ -405,12 +438,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xuh-sZ-60O" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="2097"/>
+            <point key="canvasLocation" x="35" y="2101"/>
         </scene>
     </scenes>
     <resources>
+        <image name="pencil.tip.crop.circle.badge.plus" catalog="system" width="128" height="108"/>
         <image name="rain3" width="1200" height="1800"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="sun.max.fill" catalog="system" width="128" height="124"/>
+        <image name="text.badge.plus" catalog="system" width="128" height="109"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
