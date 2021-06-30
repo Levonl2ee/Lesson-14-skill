@@ -16,7 +16,6 @@ class ViewController2: UIViewController {
     var list: Results<Lists>!
    // var weather: Results<Weather>!
    // var main: Results<Main>!
-   // var wind: Results<Wind>!
     
     var lists: [Lists] = []
 
